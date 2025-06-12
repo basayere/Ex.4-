@@ -1,0 +1,6 @@
+score = int(input("กรอกข้อมูลคะแนน (0-100): "))
+
+if score >= 50:
+    print("สอบผ่าน")
+else:
+    print("สอบตก")
