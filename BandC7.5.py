@@ -1,0 +1,10 @@
+matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+for row in matrix:
+    for val in row:
+        if val == 5:
+            continue  
+        if val == 8:
+            break 
+        print(val, end=" ")
+    print() 
