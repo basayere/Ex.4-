@@ -1,0 +1,15 @@
+import random
+
+secret = random.randint(1, 6)
+count = 0
+
+while count < 5:
+    guess = int(input("ทายเลขสุ่ม 1-6: "))
+    count += 1
+
+    if guess == secret:
+        print("ถูกต้อง")
+        break
+  
+else:
+    print("หมดโอกาส เลขลับคือ", secret)
